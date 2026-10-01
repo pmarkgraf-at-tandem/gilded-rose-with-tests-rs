@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Coverage: Generate LCOV (stable)",
+            "type": "process",
+            "command": "cargo",
+            "args": [
+                "llvm-cov",
+                "--lcov",
+                "--output-path",
+                "lcov.info"
+            ],
+            "problemMatcher": [],
+            "group": "test"
+        },
+        {
+            "label": "Coverage: Generate LCOV + branches (nightly)",
+            "type": "process",
+            "command": "cargo",
+            "args": [
+                "+nightly",
+                "llvm-cov",
+                "--branch",
+                "--lcov",
+                "--output-path",
+                "lcov.info"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

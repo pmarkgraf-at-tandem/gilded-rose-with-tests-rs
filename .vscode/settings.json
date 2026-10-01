@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
         "clippy"
-    ]
+    ],
+    "coverage-gutters.coverageFileNames": [
+        "lcov.info"
+    ],
+    "coverage-gutters.showGutterCoverage": true,
+    "coverage-gutters.showLineCoverage": true,
+    "coverage-gutters.watchOnActivate": true
 }

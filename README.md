@@ -56,4 +56,22 @@ I analyzed this repo according to the clean code standards on [Better Code Hub](
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/emilybache/GildedRose-Refactoring-Kata?branch=master)](https://bettercodehub.com/) 
 
+## Coverage
+
+Install `cargo-llvm-cov` once:
+
+```sh
+cargo install cargo-llvm-cov --locked
+```
+
+Generate line coverage in LCOV format with:
+
+```sh
+cargo llvm-cov --lcov --output-path lcov.info
+```
+
+In VS Code, run the `Coverage: Generate LCOV (stable)` task, then use Coverage Gutters to view the report. The workspace recommends the extension and watches the generated root-level `lcov.info` file.
+
+Nightly branch coverage is available through the `Coverage: Generate LCOV + branches (nightly)` task after installing the nightly toolchain. Branch coverage is not MC/DC; the Rust coverage tooling used here does not generate MC/DC reports.
+
 ## end
