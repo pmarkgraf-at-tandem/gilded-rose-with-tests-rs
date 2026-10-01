@@ -1,0 +1,9 @@
+# Retrospective
+
+## 2026-??-??
+
+### What went well today?
+
+* ???
+
+## End
