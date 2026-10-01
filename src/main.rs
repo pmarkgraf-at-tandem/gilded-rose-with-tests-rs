@@ -1,3 +1,5 @@
+#![warn(clippy::pedantic)]
+
 use rust::{GildedRose, Item};
 
 fn main() {
@@ -17,10 +19,10 @@ fn main() {
 
     println!("OMGHAI!");
     for i in 0..=30 {
-        println!("-------- day {} --------", i);
+        println!("-------- day {i} --------");
         println!("name, sellIn, quality");
         for item in &rose.items {
-            println!("{}", item);
+            println!("{item}");
         }
         println!();
         rose.update_quality();
