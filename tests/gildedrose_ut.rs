@@ -1,6 +1,6 @@
 #![warn(clippy::pedantic)]
 
-use rust::{GildedRose, Item};
+use gildedrose::{GildedRose, Item};
 
 #[test]
 fn a_regular_item_loses_one_quality_before_its_sell_by_date() {

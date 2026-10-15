@@ -1,11 +1,15 @@
 {
     "cSpell.words": [
-        "clippy"
+        "clippy",
+        "gildedrose"
     ],
     "coverage-gutters.coverageFileNames": [
-        "lcov.info"
+        "target/lcov.info"
     ],
     "coverage-gutters.showGutterCoverage": true,
     "coverage-gutters.showLineCoverage": true,
-    "coverage-gutters.watchOnActivate": true
+    "coverage-gutters.watchOnActivate": true,
+    "liveshare.allowGuestDebugControl": true,
+    "liveshare.allowGuestTaskControl": true,
+    "liveshare.languages.allowGuestCommandControl": true
 }

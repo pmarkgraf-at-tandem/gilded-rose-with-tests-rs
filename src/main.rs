@@ -1,6 +1,6 @@
 #![warn(clippy::pedantic)]
 
-use rust::{GildedRose, Item};
+use gildedrose::{GildedRose, Item};
 
 fn main() {
     let items = vec![

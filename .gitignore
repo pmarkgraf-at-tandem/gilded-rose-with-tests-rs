@@ -1,5 +1,5 @@
-target
-.idea
+target/
+**/lcov.info
+.idea/
 .git
 Cargo.lock
-lcov.info
